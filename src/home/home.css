@@ -104,3 +104,97 @@ button {
 .prix p {
   font-size: 30px;
 }
+.top {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+.destination {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80vw;
+}
+.dest-img {
+  margin: 10px;
+  width: 18vw;
+}
+.img {
+  width: 18vw;
+  height: 32vh;
+}
+h3 {
+  background: #ff7300;
+  color: white;
+  width: fit-content;
+  padding: 10px 50px 10px 50px;
+  text-align: center;
+  border-radius: 5px;
+  outline: none;
+  border-color: #ff7300;
+}
+
+@media only screen and (max-width: 1190px) {
+  h3 {
+    padding: 10px 30vw 10px 30vw;
+  }
+  .destination {
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    margin: auto;
+  }
+  .img {
+    width: 100vw;
+    height: auto;
+  }
+  .dest-img {
+    margin: auto;
+    width: max-content;
+    margin-bottom: 10vw;
+  }
+
+  .first-component {
+    width: 100vw;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  .find {
+    width: 100vw;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+  }
+  .dest {
+    flex-direction: column;
+  }
+  .time {
+    flex-direction: column-reverse;
+  }
+  input {
+    width: 85vw;
+    height: 5vh;
+  }
+  .select {
+    width: 87vw;
+    height: 5vh;
+  }
+  .btn {
+    justify-content: center;
+    margin: 2vh;
+  }
+  .deal {
+    width: 100%;
+  }
+  .prix {
+    top: 85%;
+    right: 0;
+  }
+  .text-titre {
+    top: 60%;
+  }
+  .text-img {
+    top: 90%;
+  }
+}
