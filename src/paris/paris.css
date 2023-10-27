@@ -1,0 +1,15 @@
+.custom-title {
+    display: flex;
+    align-items: center;
+}
+
+.custom-title::before {
+    content: "|";
+    color: rgb(219, 147, 14);
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+#choosedate {
+    background-color: coral;
+}
