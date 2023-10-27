@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.first-component {
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  justify-content: center;
+  color: white;
+}
+.find {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 60%;
+  background-color: rgb(0, 54, 81);
+  margin-right: 2vw;
+  padding: 10px 30px 10px 30px;
+  flex-direction: column;
+  align-content: center;
+}
+.deal {
+  width: 40%;
+}
+
+.dest {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-between;
+  margin: auto;
+}
+.time {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-between;
+  margin: auto;
+}
+input {
+  width: 18vw;
+  height: 2vh;
+  appearance: none;
+  padding: 2px;
+  border-color: #ff7300;
+}
+select {
+  width: 18vw;
+  height: 3vh;
+  appearance: none;
+  padding: 2px;
+  border-color: #ff7300;
+}
+#img-deal {
+  z-index: 1;
+  width: 100%;
+}
+
+.text-titre {
+  position: absolute;
+  z-index: 2;
+  color: black;
+  top: 2%;
+}
+.text-img {
+  position: absolute;
+  z-index: 2;
+  color: black;
+  top: 16%;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row-reverse;
+  color: black;
+}
+button {
+  background: #ff7300;
+  color: white;
+  width: fit-content;
+  padding: 10px 50px 10px 50px;
+  text-align: center;
+  border-radius: 5px;
+  outline: none;
+  border-color: #ff7300;
+}
+
+.prix {
+  position: absolute;
+  top: 16%;
+  right: 10%;
+  background: rgb(255, 213, 5);
+  padding: 5px;
+}
+.prix p {
+  font-size: 30px;
+}
