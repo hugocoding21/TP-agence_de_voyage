@@ -48,32 +48,30 @@
 }
 input {
   width: 18vw;
-  height: 2vh;
+  height: 4vh;
   appearance: none;
   padding: 2px;
   border-color: #ff7300;
 }
 select {
   width: 18vw;
-  height: 3vh;
+  height: 4vh;
   appearance: none;
   padding: 2px;
   border-color: #ff7300;
 }
 #img-deal {
-  z-index: 1;
   width: 100%;
+  position: relative;
 }
 
 .text-titre {
   position: absolute;
-  z-index: 2;
   color: black;
-  top: 2%;
+  top: 3%;
 }
 .text-img {
   position: absolute;
-  z-index: 2;
   color: black;
   top: 16%;
 }
@@ -175,10 +173,18 @@ h3 {
   input {
     width: 85vw;
     height: 5vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+  h2 {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
   }
   .select {
     width: 87vw;
     height: 5vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
   }
   .btn {
     justify-content: center;
@@ -188,13 +194,13 @@ h3 {
     width: 100%;
   }
   .prix {
-    top: 85%;
+    top: 105%;
     right: 0;
   }
   .text-titre {
-    top: 60%;
+    top: 80%;
   }
   .text-img {
-    top: 90%;
+    top: 110%;
   }
 }
