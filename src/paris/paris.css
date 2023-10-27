@@ -24,3 +24,13 @@
     text-decoration: none;
     color: black;
 }
+
+@media (max-width: 991px) {
+    .text-paris {
+        margin-top: 15px !important;
+        font-size: 30px;
+    }
+    .description {
+        font-size: 10px;
+    }
+}
