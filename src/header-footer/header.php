@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-lg bg-body-white">
   <div class="container-fluid">
     <div class="plane">
         <img src="../../assets/images/plane.png" alt="">
