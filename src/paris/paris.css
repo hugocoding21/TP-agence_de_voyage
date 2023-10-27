@@ -13,3 +13,14 @@
 #choosedate {
     background-color: coral;
 }
+
+#title_city {
+    color: coral;
+    font-weight: bold;
+}
+
+.prix {
+    float: right;
+    text-decoration: none;
+    color: black;
+}
