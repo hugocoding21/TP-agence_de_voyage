@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
 
 .page {
@@ -30,6 +31,18 @@ img {
 h1 {
   font-size: 50px;
 }
+h2::before {
+  content: "|";
+  color: #ff7300;
+  font-size: 50px;
+  margin-right: 10px;
+}
+h2 {
+  margin-bottom: 20px;
+}
+#other {
+  color: blue;
+}
 
 .bloc2 {
   display: flex;
@@ -52,6 +65,7 @@ h1 {
   display: inherit;
   flex-wrap: wrap;
   justify-content: space-between;
+  width: 87%;
 }
 .form input {
   all: initial;
@@ -63,8 +77,11 @@ h1 {
   box-shadow: 0px 0px 0px 2px #ff7300 inset;
   border-radius: 2px;
 }
+.blockmsg {
+  width: 100%;
+}
 #msg {
-  width: 198%;
+  width: 80%;
   padding-bottom: 200px;
 }
 .info {
@@ -83,4 +100,8 @@ button {
   bottom: -10%;
   background: #ff7300;
   color: white;
+}
+
+.information {
+  margin-top: 20px;
 }
