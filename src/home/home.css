@@ -72,6 +72,7 @@ select {
 #img-deal {
   width: 100%;
   height: inherit;
+  filter: opacity(70%);
 }
 
 .text-titre {
@@ -150,6 +151,7 @@ button {
 .img {
   width: 18vw;
   max-width: 100%;
+  filter: opacity(70%);
 }
 h3 {
   background: #ff7300;
