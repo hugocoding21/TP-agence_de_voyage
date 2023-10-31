@@ -19,7 +19,7 @@
   width: 80vw;
   justify-content: center;
   color: white;
-  height: 30vh;
+  height: 320px;
 }
 .find {
   display: flex;
@@ -28,7 +28,7 @@
   width: 60%;
   background-color: rgb(0, 54, 81);
   margin-right: 2vw;
-  padding: 10px 30px 10px 30px;
+  padding: 1vh 0 1vh 0;
   flex-direction: column;
   align-content: center;
 }
@@ -36,6 +36,7 @@
   width: 40%;
   position: relative;
   height: inherit;
+  cursor: pointer;
 }
 
 .dest {
@@ -43,6 +44,7 @@
   flex-direction: row;
   width: 90%;
   justify-content: space-between;
+  cursor: pointer;
 }
 .time {
   display: flex;
@@ -55,12 +57,16 @@ select {
   all: initial;
   background: #fff;
   width: 18vw;
-  height: 4vh;
+  height: fit-content;
   appearance: none;
   border-color: #ff7300;
   box-shadow: 0px 0px 0px 3px #ff7300 inset;
   padding-left: 2vw;
-  margin-top: 1vh;
+  margin-top: 5px;
+  padding: 10px;
+}
+select {
+  cursor: pointer;
 }
 
 #img-deal {
@@ -73,14 +79,16 @@ select {
   color: black;
   top: 10%;
   left: 10%;
-  font-size: 32px;
+  font-size: 15px;
 }
 .text-img {
   position: absolute;
   color: black;
   top: 60%;
   left: 10%;
-  font-size: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
 }
 .text-img h2 {
   margin-bottom: 10px;
@@ -89,7 +97,6 @@ select {
 .btn {
   display: flex;
   flex-direction: row-reverse;
-  color: black;
 }
 button {
   background: #ff7300;
@@ -101,6 +108,7 @@ button {
   border: none;
   outline: none;
   border-color: #ff7300;
+  cursor: pointer;
 }
 
 .prix {
@@ -129,11 +137,15 @@ button {
   flex-wrap: wrap;
   justify-content: space-between;
   width: 80vw;
-  margin-bottom: 4vh;
 }
 .dest-img {
   position: relative;
   margin-bottom: auto;
+  margin-bottom: 5vh;
+  cursor: pointer;
+}
+.dest-img .prix {
+  padding: 5px;
 }
 .img {
   width: 18vw;
@@ -196,9 +208,10 @@ h3 {
   input,
   select {
     width: 88vw;
-    height: 5vh;
-    margin-top: 2vh;
+    height: fit-content;
+    margin-top: 1vh;
     margin-bottom: 2vh;
+    padding: 20px;
   }
 
   .btn {
