@@ -7,14 +7,13 @@
 .page {
   display: flex;
   flex-direction: column;
-  max-width: 80vw;
   height: 100vh;
   margin: auto;
+  width: 80vw;
 }
 
 .bloc1 {
   display: flex;
-  width: inherit;
   position: relative;
   height: 35vh;
 }
@@ -104,4 +103,51 @@ button {
 
 .information {
   margin-top: 20px;
+}
+
+@media only screen and (max-width: 1190px) {
+  .page {
+    width: 100vw;
+  }
+  .bloc1 {
+    width: 100vw;
+  }
+  .bloc2 {
+    flex-direction: column;
+    height: fit-content;
+  }
+  .form {
+    width: 100vw;
+    height: fit-content;
+    margin-bottom: 10vh;
+    margin-top: 5vh;
+  }
+  .form1 {
+    flex-direction: column;
+    margin: auto;
+    width: 90vw;
+  }
+  .form input {
+    width: 97%;
+    margin-top: 10px;
+  }
+  .blockmsg {
+    width: 90vw;
+    margin: auto;
+  }
+  #msg {
+    width: 97%;
+  }
+  button {
+    width: 89vw;
+    height: 30px;
+    left: 5.5%;
+    position: relative;
+    bottom: -48%;
+  }
+  .info {
+    width: 90vw;
+    margin: auto;
+    margin-bottom: 10vh;
+  }
 }
