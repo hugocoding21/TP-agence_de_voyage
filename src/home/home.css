@@ -3,7 +3,10 @@
   padding: 0;
   font-family: sans-serif;
 }
-
+p {
+  margin-bottom: 0rem !important;
+  font-size: 1.2vw;
+}
 .page {
   display: flex;
   flex-direction: column;
@@ -11,6 +14,8 @@
   height: auto;
   max-width: 100vw;
   overflow-x: hidden;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 
 .first-component {
@@ -95,7 +100,7 @@ select {
   margin-bottom: 10px;
 }
 
-.btn {
+.btn1 {
   display: flex;
   flex-direction: row-reverse;
 }
@@ -216,12 +221,13 @@ h3 {
     padding: 20px;
   }
 
-  .btn {
+  .btn1 {
     justify-content: center;
     margin-bottom: 2vh;
   }
-  button {
-    width: 90vw;
+  button1 {
+    width: 92vw;
+    margin-bottom: 5vh;
   }
   .deal {
     width: 100%;

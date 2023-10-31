@@ -1,12 +1,12 @@
 .navbar-expand-lg .navbar-nav {
-    right: 10vw;
-    position: absolute;
+  right: 10vw;
+  position: absolute;
 }
 
 .plane {
-    height: 25px;
-    width: 25px;
+  height: 25px;
+  width: 25px;
 }
 .navbar-brand {
-    padding-left: 15px;
+  padding-left: 15px;
 }
