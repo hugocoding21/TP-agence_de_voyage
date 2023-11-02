@@ -82,10 +82,19 @@ select {
   left: 10%;
   font-size: 15px;
 }
+.text-img1 {
+  position: absolute;
+  color: black;
+  top: 63%;
+  left: 10%;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+}
 .text-img {
   position: absolute;
   color: black;
-  top: 60%;
+  top: 70%;
   left: 10%;
   font-size: 20px;
   font-weight: bold;
@@ -114,10 +123,11 @@ button {
 
 .prix {
   position: absolute;
-  top: 45%;
+  top: 70%;
   right: 0;
   background: rgb(255, 213, 5);
   padding: 1vw;
+  color: black;
 }
 .prix p {
   font-size: 30px;
@@ -143,15 +153,18 @@ button {
   position: relative;
   margin-bottom: auto;
   margin-bottom: 5vh;
+  height: 270px;
   cursor: pointer;
 }
 .dest-img .prix {
   padding: 5px;
+  top: 70%;
 }
 .img {
   width: 18vw;
   max-width: 100%;
   filter: opacity(70%);
+  height: 100%;
 }
 h3 {
   background: #ff7300;
@@ -164,7 +177,7 @@ h3 {
   border-color: #ff7300;
 }
 
-@media only screen and (max-width: 1190px) {
+@media only screen and (max-width: 750px) {
   .first-component {
     height: auto;
   }
@@ -183,6 +196,7 @@ h3 {
     margin: auto;
     width: max-content;
     margin-bottom: 10vw;
+    height: auto;
   }
 
   .first-component {
@@ -209,7 +223,8 @@ h3 {
   }
   input,
   select {
-    width: 88vw;
+    width: -moz-available;
+    width: -webkit-fill-available;
     height: fit-content;
     margin-top: 1vh;
     margin-bottom: 2vh;
@@ -225,5 +240,9 @@ h3 {
   }
   .deal {
     width: 100%;
+  }
+  .text-img,
+  .text-img1 {
+    font-size: 4.5vw;
   }
 }
