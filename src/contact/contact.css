@@ -64,12 +64,11 @@ h2 {
   display: inherit;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 87%;
+  width: 90%;
 }
 .form input {
   all: initial;
   padding-left: 15px;
-  width: 80%;
   height: 30px;
   margin: auto;
   border-color: #ff7300;
@@ -80,7 +79,7 @@ h2 {
   width: 100%;
 }
 #msg {
-  width: 80%;
+  width: 87%;
   padding-bottom: 200px;
 }
 .info {
@@ -94,9 +93,9 @@ button {
   border-radius: 5px;
   width: 15vw;
   height: 30px;
-  left: 46%;
+  left: 52.5%;
   position: absolute;
-  bottom: -10%;
+  bottom: -2%;
   background: #ff7300;
   color: white;
 }
@@ -119,7 +118,7 @@ button {
   .form {
     width: 100vw;
     height: fit-content;
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
     margin-top: 5vh;
   }
   .form1 {
@@ -148,6 +147,13 @@ button {
   .info {
     width: 90vw;
     margin: auto;
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
+  }
+  .text {
+    top: 28%;
+    right: 30%;
+  }
+  label {
+    margin-bottom: 1vh;
   }
 }
