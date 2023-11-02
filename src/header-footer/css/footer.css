@@ -5,12 +5,14 @@ body{
 	width: 100%;
 }
 
+footer {
+}
+
 .img-text {
 	background-color: rgb(45, 62, 91);
     width: 100vw;
     height: 200px;
     bottom: 203px;
-    position: fixed;
     display: flex;
 }
 
@@ -32,7 +34,6 @@ body{
     width: 100vw;
     height: 230px;
     bottom: 3px;
-    position: fixed;
 }
 
 .link1 > .links-footer {
@@ -63,7 +64,6 @@ body{
     width: 100vw;
     height: 15px;
     bottom: 1px;
-    position: fixed;
 }
 
 .link-numero > a {

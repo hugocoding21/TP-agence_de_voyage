@@ -1,10 +1,7 @@
-* {
+.page {  
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-}
-
-.page {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -85,7 +82,7 @@ select {
 .text-img1 {
   position: absolute;
   color: black;
-  top: 63%;
+  top: 50%;
   left: 10%;
   font-size: 25px;
   font-weight: bold;
@@ -94,13 +91,13 @@ select {
 .text-img {
   position: absolute;
   color: black;
-  top: 70%;
+  top: 60%;
   left: 10%;
   font-size: 20px;
   font-weight: bold;
   font-style: italic;
 }
-.text-img h2 {
+.text-img > h2 {
   margin-bottom: 10px;
 }
 
@@ -123,15 +120,16 @@ button {
 
 .prix {
   position: absolute;
-  top: 70%;
+  top: 60%;
   right: 0;
   background: rgb(255, 213, 5);
   padding: 1vw;
   color: black;
 }
-.prix p {
+.prix > p {
   font-size: 30px;
   font-weight: bold;
+  margin: 10px;
 }
 .titledest {
   color: #ff7300;
@@ -158,7 +156,7 @@ button {
 }
 .dest-img .prix {
   padding: 5px;
-  top: 70%;
+  top: 60%;
 }
 .img {
   width: 18vw;
@@ -166,7 +164,7 @@ button {
   filter: opacity(70%);
   height: 100%;
 }
-h3 {
+.button-fin > h3 {
   background: #ff7300;
   color: white;
   width: fit-content;
@@ -181,7 +179,7 @@ h3 {
   .first-component {
     height: auto;
   }
-  h3 {
+  .button-fin > h3 {
     padding: 10px 30vw 10px 30vw;
   }
   .destination {
@@ -211,7 +209,7 @@ h3 {
     padding: 0;
     margin: 0;
   }
-  .find h2 {
+  .find > h2 {
     margin-top: 2vh;
     margin-bottom: 2vh;
   }
