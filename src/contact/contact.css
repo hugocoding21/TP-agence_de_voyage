@@ -10,6 +10,7 @@
   height: 100vh;
   margin: auto;
   width: 80vw;
+  margin-bottom: 5vh;
 }
 
 .bloc1 {
@@ -28,16 +29,17 @@
 img {
   width: 100%;
 }
-h1 {
+.text > h1 {
   font-size: 50px;
 }
-h2::before {
+
+.adresse > h2::before {
   content: "|";
   color: #ff7300;
   font-size: 50px;
   margin-right: 10px;
 }
-h2 {
+.adresse > h2 {
   margin-bottom: 20px;
 }
 #other {

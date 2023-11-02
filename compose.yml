@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  php:
+    container_name: TP-voyage
+    image: php:apache
+    volumes:
+      - ./.:/var/www/html/
+    ports:
+      - 80:80
