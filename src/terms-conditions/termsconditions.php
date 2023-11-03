@@ -86,8 +86,8 @@
 
                    
     </div>
-    </main>
-     <!-- navbar here -->
+  </main>
+  <!-- navbar here -->
   <footer>
     <?php include_once "../header-footer/footer.php"; ?>
 </footer>
