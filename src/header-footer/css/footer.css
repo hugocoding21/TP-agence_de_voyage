@@ -15,9 +15,7 @@ body {
 
 .img-text > .text-image {
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
   margin: auto;
   color: aliceblue;
 }
@@ -28,8 +26,8 @@ body {
 
 .link1 {
   background-color: rgb(194, 201, 203);
-  width: 100vw;
-  height: 230px;
+  height: fit-content;
+  padding: 50px;
   bottom: 3px;
 }
 
@@ -37,8 +35,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-left: 50px;
-  padding-right: 50px;
 }
 
 .footer-links {
@@ -92,11 +88,15 @@ li a {
   }
 
   .link1 {
-    height: 500px;
+    height: fit-content;
+    padding: 50px;
   }
 
   .link1 > .links-footer {
     flex-direction: column;
     text-align: center;
+  }
+  .text-image h2 {
+    font-size: 22px;
   }
 }

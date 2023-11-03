@@ -8,6 +8,7 @@
   height: auto;
   max-width: 100vw;
   overflow-x: hidden;
+  margin-bottom: 5vh;
 }
 
 .first-component {
@@ -29,6 +30,9 @@
   flex-direction: column;
   align-content: center;
 }
+.find h2 {
+  padding-left: 10px;
+}
 .deal {
   width: 40%;
   position: relative;
@@ -41,6 +45,7 @@
   flex-direction: row;
   width: 90%;
   justify-content: space-between;
+  margin: auto;
   cursor: pointer;
 }
 .time {
@@ -48,6 +53,7 @@
   flex-direction: row;
   width: 90%;
   justify-content: space-between;
+  margin: auto;
 }
 input,
 select {
@@ -101,11 +107,12 @@ select {
   margin-bottom: 10px;
 }
 
-.btn {
+.btn1 {
   display: flex;
   flex-direction: row-reverse;
+  width: 95%;
 }
-button {
+button1 {
   background: #ff7300;
   color: white;
   width: fit-content;
@@ -144,7 +151,7 @@ button {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   width: 80vw;
 }
 .dest-img {
@@ -153,13 +160,16 @@ button {
   margin-bottom: 5vh;
   height: 270px;
   cursor: pointer;
+  margin: 1vh;
+  min-width: 243px;
+  width: 18vw;
 }
 .dest-img .prix {
   padding: 5px;
   top: 60%;
 }
 .img {
-  width: 18vw;
+  width: 100%;
   max-width: 100%;
   filter: opacity(70%);
   height: 100%;
@@ -229,11 +239,11 @@ button {
     padding: 20px;
   }
 
-  .btn {
+  .btn1 {
     justify-content: center;
     margin-bottom: 2vh;
   }
-  button {
+  #button1 {
     width: 90vw;
   }
   .deal {

@@ -11,12 +11,13 @@
     <title>Contact</title>
   </head>
   <body>
-    <div class="page">
-      <header>
+  <header>
         <?php include_once "../header-footer/header.php"; ?>
       </header>
+    <div class="page">
+     
       <div class="bloc1">
-        <img src="https://picsum.photos/600/200" alt="contact" />
+        <img id="imgn1" src="https://picsum.photos/600/200" alt="contact" />
         <div class="text">
           <h1>Contact</h1>
         </div>
@@ -49,8 +50,8 @@
               <input id="msg" type="text" name="" id="" />
             </label>
           </div>
-          <div class="btn">
-            <button>Send</button>
+          <div class="btn2">
+            <button id="button2" >Send</button>
           </div>
         </div>
         <div class="info">
@@ -74,10 +75,11 @@
           </div>
         </div>
       </div>
+      
     </div>
     <header>
-    <?php include_once "../header-footer/footer.php"; ?>
-  </header>
+      <?php include_once "../header-footer/footer.php"; ?>
+    </header>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
   </body>
