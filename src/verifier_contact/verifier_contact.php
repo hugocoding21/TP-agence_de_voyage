@@ -17,7 +17,7 @@ if (!empty($_POST)) {
 
         $message = htmlspecialchars($_POST["message"]);
 
-        require_once "../../bd_sql/config.inc.php";
+        require_once "../bd_sql/config.inc.php";
 
         $sql = "INSERT INTO `fomulaire`(`first_name`,`last_name`,`email`,`Nearest agency`,`message`) VALUE (:c_nom, :c_prenom, :c_mail, :c_choix, :c_messages)";
 
