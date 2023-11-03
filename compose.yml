@@ -1,9 +1,24 @@
 version: "3.8"
 services:
   php:
-    container_name: TP-voyage
-    image: php:apache
+    build: .
+    container_name: php_pdo
     volumes:
-      - ./.:/var/www/html/
+      - ./src/:/var/www/html/
     ports:
       - 80:80
+  phpmyadmin:
+    image: phpmyadmin:apache
+    restart: always
+    ports:
+      - 8080:80
+  db:
+    image: mysql:latest
+    restart: always
+    environment:
+      MYSQL_DATABASE: "agence_de_voyage"
+      MYSQL_USER: "hugo"
+      MYSQL_PASSWORD: "hugo"
+      MYSQL_ROOT_PASSWORD: "hugo"
+    volumes:
+      - ./src/bd_sql/:/docker-entrypoint-initdb.d

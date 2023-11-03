@@ -1,9 +1,9 @@
 <?php
 
-define("DB_HOST", "localhost");
-define("DB_USER", "root");
-define("DB_PASS", "");
-define("DB_NAME", "agence de voyage");
+define("DB_HOST", "db");
+define("DB_USER", "hugo");
+define("DB_PASS", "hugo");
+define("DB_NAME", "agence_de_voyage");
 
 error_reporting(E_ALL);
 ini_set('display_errors', TRUE);
