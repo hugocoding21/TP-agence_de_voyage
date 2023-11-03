@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: auto;
+  width: 80vw;
+  margin-bottom: 5vh;
+}
+
+.bloc1 {
+  display: flex;
+  position: relative;
+  height: 35vh;
+}
+.text {
+  position: absolute;
+  top: 42%;
+  right: 43%;
+  color: rgb(231, 231, 231);
+}
+
+#imgn1 {
+  width: 100%;
+}
+.text > h1 {
+  font-size: 50px;
+}
+
+.adresse > h2::before {
+  content: "|";
+  color: #ff7300;
+  font-size: 50px;
+  margin-right: 10px;
+}
+.adresse > h2 {
+  margin-bottom: 20px;
+}
+#other {
+  color: blue;
+}
+
+.bloc2 {
+  display: flex;
+  flex-direction: row;
+  width: inherit;
+  justify-content: center;
+  margin: auto;
+  justify-content: space-evenly;
+}
+.form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50%;
+  position: relative;
+}
+.form1 {
+  display: inherit;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
+}
+.form input {
+  all: initial;
+  padding-left: 15px;
+  height: 30px;
+  margin: auto;
+  border-color: #ff7300;
+  box-shadow: 0px 0px 0px 2px #ff7300 inset;
+  border-radius: 2px;
+}
+.blockmsg {
+  width: 100%;
+}
+#msg {
+  width: 87%;
+  padding-bottom: 200px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.btn2 {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 90.5%;
+  margin-top: 2vh;
+}
+#button2 {
+  border: none;
+  border-radius: 5px;
+  width: 15vw;
+  height: 30px;
+
+  background: #ff7300;
+  color: white;
+}
+
+.information {
+  margin-top: 20px;
+}
+label {
+  display: block !important;
+}
+@media only screen and (max-width: 750px) {
+  .page {
+    width: 100vw;
+  }
+  .bloc1 {
+    width: 100vw;
+  }
+  .bloc2 {
+    flex-direction: column;
+    height: fit-content;
+  }
+  .form {
+    width: 100vw;
+    height: fit-content;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+  }
+  .form1 {
+    flex-direction: column;
+    margin: auto;
+    width: 90vw;
+  }
+  .form input {
+    width: 97%;
+    margin-top: 10px;
+  }
+  .blockmsg {
+    width: 90vw;
+    margin: auto;
+  }
+  #msg {
+    width: 97%;
+  }
+  #button2 {
+    width: 89vw;
+    height: 30px;
+    left: 5.5%;
+    position: relative;
+    bottom: -48%;
+  }
+  .info {
+    width: 90vw;
+    margin: auto;
+    margin-bottom: 5vh;
+  }
+  .text {
+    top: 21%;
+    right: 26%;
+  }
+  label {
+    margin-bottom: 1vh;
+  }
+}

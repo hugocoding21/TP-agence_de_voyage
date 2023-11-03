@@ -1,16 +1,14 @@
-* {
+.page {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-}
-
-.page {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: auto;
   max-width: 100vw;
   overflow-x: hidden;
+  margin-bottom: 5vh;
 }
 
 .first-component {
@@ -19,7 +17,7 @@
   width: 80vw;
   justify-content: center;
   color: white;
-  height: 30vh;
+  height: 320px;
 }
 .find {
   display: flex;
@@ -28,14 +26,18 @@
   width: 60%;
   background-color: rgb(0, 54, 81);
   margin-right: 2vw;
-  padding: 10px 30px 10px 30px;
+  padding: 1vh 0 1vh 0;
   flex-direction: column;
   align-content: center;
+}
+.find h2 {
+  padding-left: 10px;
 }
 .deal {
   width: 40%;
   position: relative;
   height: inherit;
+  cursor: pointer;
 }
 
 .dest {
@@ -43,29 +45,37 @@
   flex-direction: row;
   width: 90%;
   justify-content: space-between;
+  margin: auto;
+  cursor: pointer;
 }
 .time {
   display: flex;
   flex-direction: row;
   width: 90%;
   justify-content: space-between;
+  margin: auto;
 }
 input,
 select {
   all: initial;
   background: #fff;
   width: 18vw;
-  height: 4vh;
+  height: fit-content;
   appearance: none;
   border-color: #ff7300;
   box-shadow: 0px 0px 0px 3px #ff7300 inset;
   padding-left: 2vw;
-  margin-top: 1vh;
+  margin-top: 5px;
+  padding: 10px;
+}
+select {
+  cursor: pointer;
 }
 
 #img-deal {
   width: 100%;
   height: inherit;
+  filter: opacity(70%);
 }
 
 .text-titre {
@@ -73,25 +83,36 @@ select {
   color: black;
   top: 10%;
   left: 10%;
-  font-size: 32px;
+  font-size: 15px;
+}
+.text-img1 {
+  position: absolute;
+  color: black;
+  top: 50%;
+  left: 10%;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
 }
 .text-img {
   position: absolute;
   color: black;
   top: 60%;
   left: 10%;
-  font-size: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
 }
-.text-img h2 {
+.text-img > h2 {
   margin-bottom: 10px;
 }
 
-.btn {
+.btn1 {
   display: flex;
   flex-direction: row-reverse;
-  color: black;
+  width: 95%;
 }
-button {
+button1 {
   background: #ff7300;
   color: white;
   width: fit-content;
@@ -101,18 +122,21 @@ button {
   border: none;
   outline: none;
   border-color: #ff7300;
+  cursor: pointer;
 }
 
 .prix {
   position: absolute;
-  top: 45%;
+  top: 60%;
   right: 0;
   background: rgb(255, 213, 5);
   padding: 1vw;
+  color: black;
 }
-.prix p {
+.prix > p {
   font-size: 30px;
   font-weight: bold;
+  margin: 10px;
 }
 .titledest {
   color: #ff7300;
@@ -127,19 +151,30 @@ button {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   width: 80vw;
-  margin-bottom: 4vh;
 }
 .dest-img {
   position: relative;
   margin-bottom: auto;
+  margin-bottom: 5vh;
+  height: 270px;
+  cursor: pointer;
+  margin: 1vh;
+  min-width: 243px;
+  width: 18vw;
+}
+.dest-img .prix {
+  padding: 5px;
+  top: 60%;
 }
 .img {
-  width: 18vw;
+  width: 100%;
   max-width: 100%;
+  filter: opacity(70%);
+  height: 100%;
 }
-h3 {
+.button-fin > h3 {
   background: #ff7300;
   color: white;
   width: fit-content;
@@ -150,11 +185,11 @@ h3 {
   border-color: #ff7300;
 }
 
-@media only screen and (max-width: 1190px) {
+@media only screen and (max-width: 750px) {
   .first-component {
     height: auto;
   }
-  h3 {
+  .button-fin > h3 {
     padding: 10px 30vw 10px 30vw;
   }
   .destination {
@@ -169,6 +204,7 @@ h3 {
     margin: auto;
     width: max-content;
     margin-bottom: 10vw;
+    height: auto;
   }
 
   .first-component {
@@ -183,7 +219,7 @@ h3 {
     padding: 0;
     margin: 0;
   }
-  .find h2 {
+  .find > h2 {
     margin-top: 2vh;
     margin-bottom: 2vh;
   }
@@ -195,20 +231,26 @@ h3 {
   }
   input,
   select {
-    width: 88vw;
-    height: 5vh;
-    margin-top: 2vh;
+    width: -moz-available;
+    width: -webkit-fill-available;
+    height: fit-content;
+    margin-top: 1vh;
     margin-bottom: 2vh;
+    padding: 20px;
   }
 
-  .btn {
+  .btn1 {
     justify-content: center;
     margin-bottom: 2vh;
   }
-  button {
+  #button1 {
     width: 90vw;
   }
   .deal {
     width: 100%;
+  }
+  .text-img,
+  .text-img1 {
+    font-size: 4.5vw;
   }
 }
