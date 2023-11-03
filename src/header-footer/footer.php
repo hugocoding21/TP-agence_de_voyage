@@ -45,19 +45,19 @@
                     </div>
                     <ul class="footer-links">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="../home/home.php">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Destinations</a>
+                            <a class="nav-link" href="../paris/paris.php">Destinations</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Deals</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="../contact/contact.php">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Terms & Conditions</a>
+                            <a class="nav-link" href="../terms-conditions/termsconditions.php">Terms & Conditions</a>
                         </li>
                     </ul>
 
